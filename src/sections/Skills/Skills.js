@@ -36,9 +36,10 @@ const Skills = () => {
         ]
     };
     return (
-    <div id='skills' className='container'>
+    <div id='skills' className='r'>
         <Titles title='skills' />
         <div className="row mt">
+            <div className="slider">
             <Slider {...settings}>
                 {SkillsData.map((item,index)=>{
                     return (
@@ -53,6 +54,7 @@ const Skills = () => {
                     );
                 })}
             </Slider>
+            </div>
         </div>
     </div>
   )

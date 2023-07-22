@@ -78,6 +78,7 @@
 
 @media screen and (max-width:768px) {
     .center{
-        margin-top: 60%;
+        margin-top: 120%;
+        margin-left: 25%;
     }
 }

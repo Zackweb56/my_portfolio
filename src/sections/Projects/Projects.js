@@ -8,7 +8,7 @@ import { ProData } from './ProData';
 
 const Projects = () => {
   return (
-    <div id='projects' className='container mb-5 mt-5'>
+    <div id='projects' className='mb-5 mt-5'>
       <Titles title='projects' />
       <div className="row mt gap">
         {ProData.map((item,index)=>{

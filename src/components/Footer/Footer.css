@@ -31,7 +31,14 @@
 }
 
 @media screen and (max-width:768px) {
+    #footer, .line{
+        width: 100%;
+    }
     .footer{
+        margin-left: 25%;
         flex-direction: column;
+    }
+    .copyrights, .footer .logo{
+        font-size: 13px;
     }
 }

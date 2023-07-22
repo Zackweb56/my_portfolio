@@ -46,7 +46,7 @@ function Navbar() {
     return (
     <>
         <nav className="nav affix">
-            <div className="container">
+            <div className="r">
                 <a href="#home" className="logo">
                     zack web <span>.</span>
                     {/* <img src={Logo} alt="zack_web_logo" /> */}
@@ -56,8 +56,8 @@ function Navbar() {
                         <li><a href="#home" onClick={(e) => handleSmoothScroll(e, 'home')} className={activeLink === 'home' ? 'active_link' : ''} >Home</a></li>
                         <li><a href="#about" onClick={(e) => handleSmoothScroll(e, 'about')} className={activeLink === 'about' ? 'active_link' : ''} >About Me</a></li>
                         <li><a href="#skills" onClick={(e) => handleSmoothScroll(e, 'skills')} className={activeLink === 'skills' ? 'active_link' : ''} >Skills</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#projects" onClick={(e) => handleSmoothScroll(e, 'projects')} className={activeLink === 'projects' ? 'active_link' : ''}>Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
                 <span className="navTrigger" id='navTrigger'>

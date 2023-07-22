@@ -57,10 +57,13 @@
 
 @media screen and (max-width:768px) {
     #skills{
-        margin-top: 400px;
+        margin-top: 250px;
     }
     .skill_card{
         width: 10%;
+    }
+    .slider{
+        margin-left: 8%;
     }
     .skill_card .circle_color_percentage{
         left: 53%;

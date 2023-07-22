@@ -11,21 +11,19 @@ import SocialIcons from '../../components/SocialIcons/SocialIcons';
 function About() {
     const styles = {
         about : {
-          backgroundColor: `#000408`,
           width: '100%',
           height: '100vh',
-          zIndex: '0'
         },
     };
     return (
     <>
-        <div id="about" style={styles.about} className='container align-items-center'>
+        <div id="about" style={styles.about} className='align-items-center'>
             <Titles title='about me' />
             <div className="row">
-              <div className="img col-lg-6 col-md-5 col-sm-12">
+              <div className="img col-lg-6">
                 <img src={About_img} alt="coding..." />
               </div>
-              <div className="about_me col-lg-6 col-md-7 col-sm-12">
+              <div className="about_me col-lg-6">
                 <h1>
                   Hello, <span style={{color:'var(--main-color)'}}>I'm</span> A Full stack developer
                 </h1>
