@@ -1,0 +1,37 @@
+/* #footer{
+    background-color: #00060c;
+} */
+
+.footer .logo{
+    float: left;
+    margin-right: 45px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+}
+.footer .logo span{
+    color: #fa0;
+}
+
+.line{
+    color: #242424;
+    margin: 0;
+}
+
+.copyrights{
+    color: #aaa;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.copyrights span{
+    color: var(--main-color);
+}
+
+@media screen and (max-width:768px) {
+    .footer{
+        flex-direction: column;
+    }
+}
